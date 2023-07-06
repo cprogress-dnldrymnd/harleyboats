@@ -167,7 +167,7 @@ function woo_enquire_tab($tabs)
 	// Adds the new tab
 
 	$tabs['test_tab'] = array(
-		'title'    => __('New Product Tab', 'woocommerce'),
+		'title'    => __('Enquire', 'woocommerce'),
 		'priority' => 50,
 		'callback' => 'woo_enquire_tab_content'
 	);
@@ -180,7 +180,7 @@ function woo_enquire_tab_content()
 
 	// The new tab content
 
-	echo '<h2>New Product Tab</h2>';
-	echo '<p>Here\'s your new product tab.</p>';
+	echo '<h2>Enquire Now</h2>';
+	echo do_shortcode( '[contact-form-7 id="53" title="Product Enquire"]' );
 
 }

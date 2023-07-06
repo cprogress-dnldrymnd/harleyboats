@@ -51,7 +51,7 @@
 							<div class="column-holder">
 								<div class="site-logo-holder position-relative">
 									<a href="<?= get_site_url() ?>" class="site-logo">
-
+										<img src="https://used.hartleyboats.com/wp-content/uploads/2023/07/hbc_logo_wht.png" alt="">
 									</a>
 								</div>
 							</div>

@@ -1,10 +1,29 @@
 footer {
     background-color: #444444;
     color: var(--white-color);
+
     img {
-        max-width: 275px;
+        max-width: 275px !important;
     }
+
     a {
         color: var(--white-color);
+    }
+
+    .widget-title {
+        font-size: 20px;
+    }
+
+    .menu {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 10px;
+
+            a {
+                text-decoration: none;
+            }
+        }
     }
 }

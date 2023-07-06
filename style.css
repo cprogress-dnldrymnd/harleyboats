@@ -10247,9 +10247,18 @@ footer {
   background-color: #444444;
   color: var(--white-color); }
   footer img {
-    max-width: 275px; }
+    max-width: 275px !important; }
   footer a {
     color: var(--white-color); }
+  footer .widget-title {
+    font-size: 20px; }
+  footer .menu {
+    list-style: none;
+    padding-left: 0; }
+    footer .menu li {
+      margin-bottom: 10px; }
+      footer .menu li a {
+        text-decoration: none; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Sections

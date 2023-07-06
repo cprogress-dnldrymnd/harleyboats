@@ -8,8 +8,6 @@ function menu_locations() {
 		array(
 
 			'header-menu'	=>	__( 'Header Menu'), 
-			'mobile-menu'	=>	__( 'Mobile Menu'), 
-			'footer-links'	=>	__( 'Footer Links'), 
 		)
 
 	);

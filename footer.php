@@ -5,7 +5,7 @@
 /*-----------------------------------------------------------------------------------*/
 ?>
 
-<footer class="py-4">
+<footer class="sm-padding">
   <div class="container">
     <div class="row g-5">
       <div class="col-sm-4 footer-column-1">

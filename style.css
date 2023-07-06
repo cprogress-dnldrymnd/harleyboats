@@ -10256,7 +10256,6 @@ header {
   header .site-logo img {
     max-width: 275px; }
   header .btn {
-    display: inline-block !important;
     color: var(--white-color);
     padding: 0; }
     header .btn svg {

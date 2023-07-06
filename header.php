@@ -46,7 +46,7 @@
 		<div class="header-inner">
 			<div class="header-main ">
 				<div class="container">
-					<div class="row">
+					<div class="row align-items-center">
 						<div class="col-lg-3 col-6">
 							<div class="column-holder">
 								<div class="site-logo-holder position-relative">

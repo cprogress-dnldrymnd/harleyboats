@@ -10252,6 +10252,8 @@ tspan {
 /*-----------------------------------------------------------------------------------*/
 header {
   background-color: rgba(0, 0, 0, 0.8); }
+  header .site-logo img {
+    max-width: 275px; }
   header #offCanvasMenu {
     position: relative;
     transform: none;

@@ -1,6 +1,10 @@
 header {
 	background-color: rgba(0, 0, 0, 0.8);
-
+	.site-logo {
+		img {
+			max-width: 275px;
+		}
+	}
 	#offCanvasMenu {
 		position: relative;
 		transform: none;

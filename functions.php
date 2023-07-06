@@ -113,7 +113,7 @@ require_once('includes/_required_files.php');
 
 function action_woocommerce_before_main_content()
 {
-	echo '<section class="product-loop md-padding" ><div class="container"><div class="heading-box"><h2> Used Boats </h2></div>"';
+	echo '<section class="product-loop md-padding" ><div class="container"><div class="heading-box"><h2> Used Boats </h2></div>';
 }
 
 

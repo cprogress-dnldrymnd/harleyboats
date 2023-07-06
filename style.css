@@ -9305,17 +9305,19 @@ textarea.form-control-lg {
 
 input[type="text"],
 input[type="email"],
-input[type="tel"] {
+input[type="tel"], textarea {
   border-radius: 0;
   border: 1px solid gray;
   padding: 10px;
   width: 100%; }
 
-.wpcf7-form label {
-  width: 100%; }
-  .wpcf7-form label .wpcf7-form-control-wrap {
-    width: 100%;
-    display: block; }
+.wpcf7 {
+  max-width: 600px; }
+  .wpcf7 label {
+    width: 100%; }
+    .wpcf7 label .wpcf7-form-control-wrap {
+      width: 100%;
+      display: block; }
 
 @font-face {
   font-family: "SegoeUI";

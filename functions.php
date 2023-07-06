@@ -139,4 +139,4 @@ function bbloomer_view_product_button()
 	$link = $product->get_permalink();
 	echo '<a href="' . $link . '" class="button addtocartbutton">View Product</a>';
 }
-remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);

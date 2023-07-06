@@ -60,8 +60,8 @@
 							<div class="column-holder">
 								<div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvasMenu"
 									aria-labelledby="offCanvasMenuLabel">
-									<div class="offcanvas-header">
-										<button type="button" class="btn-close text-reset d-block d-lg-none" data-bs-dismiss="offcanvas"
+									<div class="offcanvas-header d-block d-lg-none">
+										<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
 											aria-label="Close"></button>
 									</div>
 									<div class="offcanvas-body">

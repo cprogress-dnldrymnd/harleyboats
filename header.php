@@ -42,7 +42,7 @@
 	<?php do_action('body_scripts') ?>
 
 
-	<header>
+	<header class="py-2">
 		<div class="header-inner">
 			<div class="header-main ">
 				<div class="container">

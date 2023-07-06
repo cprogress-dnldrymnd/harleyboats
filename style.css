@@ -10243,6 +10243,10 @@ header {
         header #offCanvasMenu .navbar-nav li a {
           color: var(--white-color); }
 
+footer {
+  background-color: #444444;
+  color: var(--white-color); }
+
 /*-----------------------------------------------------------------------------------*/
 /* Sections
 /*-----------------------------------------------------------------------------------*/

@@ -162,3 +162,16 @@ function action_body_class($classes)
 
 
 add_filter('wpcf7_autop_or_not', '__return_false');
+
+
+function action_wp_footer()
+{
+	$page_footer_scripts = get__post_meta('page_footer_scripts');
+
+	if ($page_footer_scripts) {
+		echo $page_footer_scripts;
+	}
+	?>
+	<?php
+}
+add_action('wp_footer', 'action_wp_footer');

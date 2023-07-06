@@ -111,12 +111,13 @@ add_action('wp_enqueue_scripts', 'enqueue_scripts'); // Register this fxn and al
 /*-----------------------------------------------------------------------------------*/
 require_once('includes/_required_files.php');
 
-function action_woocommerce_before_main_content() {
+function action_woocommerce_before_main_content()
+{
 	echo '<section class="product-loop md-padding" ><div class="container">';
 }
 
 
-add_action( 'woocommerce_before_main_content', 'action_woocommerce_before_main_content' );
+add_action('woocommerce_before_main_content', 'action_woocommerce_before_main_content');
 
 function action_woocommerce_after_main_content()
 {
@@ -125,3 +126,7 @@ function action_woocommerce_after_main_content()
 
 
 add_action('woocommerce_after_main_content', 'action_woocommerce_after_main_content');
+
+
+remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart');

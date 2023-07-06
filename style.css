@@ -10261,7 +10261,8 @@ header {
     padding: 0; }
     header .btn svg {
       width: 30px;
-      height: 30px; }
+      height: 30px;
+      color: var(--white-color); }
   header #offCanvasMenu .btn-close {
     filter: brightness(0) invert(1); }
   header #offCanvasMenu .navbar-nav li {

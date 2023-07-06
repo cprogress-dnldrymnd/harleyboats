@@ -98,7 +98,7 @@ function enqueue_scripts()
 	//wp_enqueue_script('coptz-swiper-js', vendor_dir . 'swiper/swiper-bundle.min.js');
 	//wp_enqueue_script('coptz-main-fontawesome-js', vendor_dir . 'fontawesome/all.min.js');
 	//wp_enqueue_script('coptz-aos-js', vendor_dir . 'aos/aos.js');
-	wp_enqueue_script('coptz-js', assets_dir . 'javascripts/main.js');
+	//wp_enqueue_script('coptz-js', assets_dir . 'javascripts/main.js');
 
 }
 

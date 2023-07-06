@@ -10252,6 +10252,14 @@ tspan {
 /*-----------------------------------------------------------------------------------*/
 header {
   background-color: rgba(0, 0, 0, 0.8); }
+  header #offCanvasMenu {
+    position: relative;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    background-color: transparent;
+    border: none;
+    width: auto; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Sections

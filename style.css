@@ -10246,6 +10246,10 @@ header {
 footer {
   background-color: #444444;
   color: var(--white-color); }
+  footer img {
+    max-width: 275px; }
+  footer a {
+    color: var(--white-color); }
 
 /*-----------------------------------------------------------------------------------*/
 /* Sections

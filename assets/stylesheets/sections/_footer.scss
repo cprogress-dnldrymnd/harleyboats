@@ -1,4 +1,10 @@
 footer {
     background-color: #444444;
     color: var(--white-color);
+    img {
+        max-width: 275px;
+    }
+    a {
+        color: var(--white-color);
+    }
 }

@@ -84,6 +84,4 @@
 
 	<main id="main">
 
-		<?= single_product_summary(get_the_ID()) ?>
-
 		<?php do_action('after_open_main') ?>

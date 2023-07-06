@@ -10262,6 +10262,8 @@ header {
     header .btn svg {
       width: 30px;
       height: 30px; }
+  header #offCanvasMenu .btn-close {
+    filter: brightness(0) invert(1); }
   header #offCanvasMenu .navbar-nav li {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }

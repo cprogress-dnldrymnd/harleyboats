@@ -10262,16 +10262,15 @@ header {
     header .btn svg {
       width: 30px;
       height: 30px; }
-  header #offCanvasMenu .navbar-nav {
-    justify-content: flex-end; }
-    header #offCanvasMenu .navbar-nav li {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem; }
-      header #offCanvasMenu .navbar-nav li a {
-        color: var(--white-color); }
-    @media screen and (min-width: 992px) {
-      header #offCanvasMenu .navbar-nav {
-        flex-direction: row; } }
+  header #offCanvasMenu .navbar-nav li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+    header #offCanvasMenu .navbar-nav li a {
+      color: var(--white-color); }
+  @media screen and (min-width: 992px) {
+    header #offCanvasMenu .navbar-nav {
+      flex-direction: row;
+      justify-content: flex-end; } }
   @media screen and (min-width: 992px) {
     header #offCanvasMenu {
       position: relative;

@@ -22,7 +22,6 @@ header {
 
 
 		.navbar-nav {
-			justify-content: flex-end;
 
 			li {
 				padding-left: 0.5rem;
@@ -35,6 +34,7 @@ header {
 
 			@include responsive(md-lg) {
 				flex-direction: row;
+				justify-content: flex-end;
 			}
 		}
 

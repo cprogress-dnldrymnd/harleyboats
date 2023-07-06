@@ -9289,7 +9289,10 @@ textarea.form-control-lg {
   background-color: var(--accent-color);
   color: var(--white-color);
   border-radius: 50px;
-  padding: 15px 40px; }
+  padding: 15px;
+  max-width: 180px;
+  width: 100%;
+  text-align: center; }
   .woocommerce ul.products li.product .button:hover, .woocommerce ul.products li.product .button:active, .woocommerce ul.products li.product .button:focus,
   .woocommerce #review_form #respond .form-submit input:hover,
   .woocommerce #review_form #respond .form-submit input:active,

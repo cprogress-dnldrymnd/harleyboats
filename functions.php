@@ -150,7 +150,7 @@ remove_action('woocommerce_single_product_summary', 'woocommerce_template_single
  * so priority 9 and 11 are used to open and close the div.
  */
 add_action('woocommerce_before_shop_loop_item_title', function () {
-	echo '<div class="imagewrapper">';
+	echo '<div class="image-box">';
 }, 9);
 add_action('woocommerce_before_shop_loop_item_title', function () {
 	echo '</div>';

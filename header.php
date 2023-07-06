@@ -47,7 +47,7 @@
 			<div class="header-main ">
 				<div class="container">
 					<div class="row">
-						<div class="col-3">
+						<div class="col-sm-3 col-6">
 							<div class="column-holder">
 								<div class="site-logo-holder position-relative">
 									<a href="<?= get_site_url() ?>" class="site-logo">
@@ -56,7 +56,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-9">
+						<div class="col-sm-9 col-6">
 							<div class="column-holder">
 
 								<button class="btn btn-primary d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasMenu"

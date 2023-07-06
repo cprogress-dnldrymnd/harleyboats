@@ -33,11 +33,12 @@ function action_after_open_main()
 	else if (is_search()) {
 		$title = 'Search';
 	}
-	else if (is_shop()) {
-		$title = 'Shop';
-	}
 	else {
 		$title = get_the_archive_title();
+	}
+
+	if (is_front_page()) {
+		$title = 'Shop';
 	}
 
 

@@ -9285,7 +9285,8 @@ textarea.form-control-lg {
     margin-bottom: 0; }
 
 .woocommerce ul.products li.product .button,
-.woocommerce #review_form #respond .form-submit input {
+.woocommerce #review_form #respond .form-submit input,
+.wpcf7-submit.wpcf7-submit {
   background-color: var(--accent-color);
   color: var(--white-color);
   border-radius: 50px;
@@ -9296,8 +9297,25 @@ textarea.form-control-lg {
   .woocommerce ul.products li.product .button:hover, .woocommerce ul.products li.product .button:active, .woocommerce ul.products li.product .button:focus,
   .woocommerce #review_form #respond .form-submit input:hover,
   .woocommerce #review_form #respond .form-submit input:active,
-  .woocommerce #review_form #respond .form-submit input:focus {
+  .woocommerce #review_form #respond .form-submit input:focus,
+  .wpcf7-submit.wpcf7-submit:hover,
+  .wpcf7-submit.wpcf7-submit:active,
+  .wpcf7-submit.wpcf7-submit:focus {
     background-color: var(--primary-color); }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  border-radius: 0;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100%; }
+
+.wpcf7-form label {
+  width: 100%; }
+  .wpcf7-form label .wpcf7-form-control-wrap {
+    width: 100%;
+    display: block; }
 
 @font-face {
   font-family: "SegoeUI";

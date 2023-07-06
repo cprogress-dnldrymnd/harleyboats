@@ -46,8 +46,8 @@
 		<div class="header-inner">
 			<div class="header-main ">
 				<div class="container">
-					<div class="row align-items-center justify-content-between align-items-center gy-3 row-holder">
-						<div class="col col-lg-auto col-logo">
+					<div class="row">
+						<div class="col">
 							<div class="column-holder">
 								<div class="site-logo-holder position-relative">
 									<a href="<?= get_site_url() ?>" class="site-logo">
@@ -56,22 +56,30 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-auto col-menu d-flex align-self-stretch align-items-center justify-content-end">
-							<div class="column-holder h-lg-100">
-								<div class="h-lg-100">
-									<?php
-									wp_nav_menu(
-										array(
-											'theme_location' => 'header-menu',
-											'container'      => false,
-											'menu_class'     => '',
-											'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
-											'items_wrap'     => '<ul id="%1$s" class="navbar-nav align-items-center h-100 %2$s">%3$s</ul>',
-											'depth'          => 3,
-											'walker'         => new bootstrap_5_wp_nav_menu_walker()
-										)
-									);
-									?>
+						<div class="col-auto">
+							<div class="column-holder">
+								<div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvasMenu"
+									aria-labelledby="offCanvasMenuLabel">
+									<div class="offcanvas-header">
+										<h5 class="offcanvas-title" id="offCanvasMenuLabel">Offcanvas</h5>
+										<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+											aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+										<?php
+										wp_nav_menu(
+											array(
+												'theme_location' => 'header-menu',
+												'container'      => false,
+												'menu_class'     => '',
+												'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
+												'items_wrap'     => '<ul id="%1$s" class="navbar-nav align-items-center h-100 %2$s">%3$s</ul>',
+												'depth'          => 3,
+												'walker'         => new bootstrap_5_wp_nav_menu_walker()
+											)
+										);
+										?>
+									</div>
 								</div>
 							</div>
 						</div>

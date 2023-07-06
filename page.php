@@ -15,7 +15,6 @@ get_header(); // This fxn gets the header.php file and renders it
 	<?php while (have_posts()) : the_post();
 		// If we have a page to show, start a loop that will display it
 	?>
-		<?php get_template_part('template-parts/section/content', 'banner'); ?>
 		<section class="the-content lg-padding">
 			<div class="container pt-medium pb-medium">
 				<article class="post">

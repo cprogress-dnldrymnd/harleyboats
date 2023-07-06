@@ -10255,6 +10255,9 @@ header {
   background-color: rgba(0, 0, 0, 0.8); }
   header .site-logo img {
     max-width: 275px; }
+    @media screen and (max-width: 1199px) {
+      header .site-logo img {
+        max-width: 200px; } }
   header .btn {
     color: var(--white-color);
     padding: 0; }
@@ -10269,6 +10272,10 @@ header {
     padding-right: 0.5rem; }
     header #offCanvasMenu .navbar-nav li a {
       color: var(--white-color); }
+    @media screen and (max-width: 1199px) {
+      header #offCanvasMenu .navbar-nav li {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem; } }
   @media screen and (min-width: 992px) {
     header #offCanvasMenu .navbar-nav {
       flex-direction: row;

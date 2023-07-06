@@ -1,0 +1,15 @@
+.woocommerce.woocommerce ul.products li.product .price {
+    color: var(--primary-color);
+}
+
+.woocommerce ul.products li.product .button,
+.woocommerce #review_form #respond .form-submit input {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border-radius: 50px;
+    padding: 15px 40px;
+
+    @include on-event {
+        background-color: var(--primary-color);
+    }
+}

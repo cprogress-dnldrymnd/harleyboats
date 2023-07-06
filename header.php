@@ -28,28 +28,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-	<?php if (current_user_can('administrator')) { ?>
-		<style>
-			.payment_method_wpfi_test {
-				display: block !important;
-			}
-		</style>
-	<?php }
-	else { ?>
-	<style>
-			.payment_method_wpfi_test {
-				display: none !important;
-			}
-		</style>
-	<?php } ?>
-
 </head>
-
-<?php
-if (is_page()) {
-	$page_theme = get__post_meta('page_theme');
-}
-?>
 
 <body <?php body_class(); ?>>
 
@@ -63,18 +42,47 @@ if (is_page()) {
 	<?php do_action('body_scripts') ?>
 
 
-	<?php do_action('open_header') ?>
-	<?php
-	get_template_part('template-parts/header/header', 'main');
-	?>
-	<?php do_action('close_header') ?>
+	<header>
+		<div class="header-inner">
+			<div class="header-main ">
+				<div class="container">
+					<div class="row align-items-center justify-content-between align-items-center gy-3 row-holder">
+						<div class="col col-lg-auto col-logo">
+							<div class="column-holder">
+								<div class="site-logo-holder position-relative">
+									<a href="<?= get_site_url() ?>" class="site-logo">
 
-	<?php
-	//get_template_part('template-parts/header/header', 'modal');
-	?>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto col-menu d-flex align-self-stretch align-items-center justify-content-end">
+							<div class="column-holder h-lg-100">
+								<div class="h-lg-100">
+									<?php
+									wp_nav_menu(
+										array(
+											'theme_location' => 'header-menu',
+											'container'      => false,
+											'menu_class'     => '',
+											'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
+											'items_wrap'     => '<ul id="%1$s" class="navbar-nav align-items-center h-100 %2$s">%3$s</ul>',
+											'depth'          => 3,
+											'walker'         => new bootstrap_5_wp_nav_menu_walker()
+										)
+									);
+									?>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-	
-	<main id="main" class="<?= $page_theme ?>">
+
+	<main id="main">
 
 		<?= single_product_summary(get_the_ID()) ?>
 

@@ -8,17 +8,12 @@ header {
 	}
 
 	#offCanvasMenu {
-		position: relative;
-		transform: none;
-		opacity: 1;
-		visibility: visible;
-		background-color: transparent;
-		border: none;
-		width: auto;
+
 
 		.navbar-nav {
 			flex-direction: row;
 			justify-content: flex-end;
+
 			li {
 				padding-left: 0.5rem;
 				padding-right: 0.5rem;
@@ -27,6 +22,16 @@ header {
 					color: var(--white-color);
 				}
 			}
+		}
+
+		@include responsive(md-lg) {
+			position: relative;
+			transform: none;
+			opacity: 1;
+			visibility: visible;
+			background-color: transparent;
+			border: none;
+			width: auto;
 		}
 	}
 }

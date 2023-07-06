@@ -57,9 +57,9 @@
 							</div>
 						</div>
 						<div class="col-lg-9 col-6">
-							<div class="column-holder">
+							<div class="column-holder text-end">
 
-								<button class="btn btn-primary d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasMenu"
+								<button class="btn d-inline-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasMenu"
 									aria-controls="offCanvasMenu">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
 										viewBox="0 0 16 16">

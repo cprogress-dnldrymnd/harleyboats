@@ -10255,6 +10255,13 @@ header {
   background-color: rgba(0, 0, 0, 0.8); }
   header .site-logo img {
     max-width: 275px; }
+  header .btn {
+    display: inline-block !important;
+    color: var(--white-color);
+    padding: 0; }
+    header .btn svg {
+      width: 30px;
+      height: 30px; }
   header #offCanvasMenu .navbar-nav {
     justify-content: flex-end; }
     header #offCanvasMenu .navbar-nav li {

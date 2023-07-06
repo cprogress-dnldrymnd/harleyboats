@@ -5,7 +5,7 @@
 /*-----------------------------------------------------------------------------------*/
 ?>
 
-<footer>
+<footer class="py-2">
   <div class="container">
     <div class="row g-5">
       <div class="col-sm-4 footer-column-1">

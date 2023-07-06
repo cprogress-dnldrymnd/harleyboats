@@ -9253,7 +9253,7 @@ textarea.form-control-lg {
   to {
     transform: rotate(360deg); } }
 :root {
-  --primary-font: HKNovaR, sans-serif;
+  --primary-font: Segoe UI, sans-serif;
   --primary-color: #000000;
   --secondary-color: #1C1C1E;
   --accent-color: #2DA1FF;
@@ -9271,45 +9271,17 @@ textarea.form-control-lg {
 /* Base
 /*-----------------------------------------------------------------------------------*/
 @font-face {
-  font-family: "HKNovaR";
-  src: url("./assets/fonts/hknova/HKNovaR-Light.eot");
-  src: url("./assets/fonts/hknova/HKNovaR-Light.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/hknova/HKNovaR-Light.woff2") format("woff2"), url("./assets/fonts/hknova/HKNovaR-Light.woff") format("woff"), url("./assets/fonts/hknova/HKNovaR-Light.ttf") format("truetype"), url("./assets/fonts/hknova/HKNovaR-Light.svg#HKNovaR-Light") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "HKNovaR";
-  src: url("./assets/fonts/hknova/HKNovaR-Regular.eot");
-  src: url("./assets/fonts/hknova/HKNovaR-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/hknova/HKNovaR-Regular.woff2") format("woff2"), url("./assets/fonts/hknova/HKNovaR-Regular.woff") format("woff"), url("./assets/fonts/hknova/HKNovaR-Regular.ttf") format("truetype"), url("./assets/fonts/hknova/HKNovaR-Regular.svg#HKNovaR-Regular") format("svg");
+  font-family: "SegoeUI";
+  src: url("./assets/fonts/SegoeUI/SegoeUI-Regular.eot");
+  src: url("./assets/fonts/SegoeUI/SegoeUI-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SegoeUI/SegoeUI-Regular.woff2") format("woff2"), url("./assets/fonts/SegoeUI/SegoeUI-Regular.woff") format("woff"), url("./assets/fonts/SegoeUI/SegoeUI-Regular.ttf") format("truetype"), url("./assets/fonts/SegoeUI/SegoeUI-Regular.svg#SegoeUI-Regular") format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: "HKNovaR";
-  src: url("./assets/fonts/hknova/HKNovaR-Medium.eot");
-  src: url("./assets/fonts/hknova/HKNovaR-Medium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/hknova/HKNovaR-Medium.woff2") format("woff2"), url("./assets/fonts/hknova/HKNovaR-Medium.woff") format("woff"), url("./assets/fonts/hknova/HKNovaR-Medium.ttf") format("truetype"), url("./assets/fonts/hknova/HKNovaR-Medium.svg#HKNovaR-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "HKNovaR";
-  src: url("./assets/fonts/hknova/HKNovaR-Semibold.eot");
-  src: url("./assets/fonts/hknova/HKNovaR-Semibold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/hknova/HKNovaR-Semibold.woff2") format("woff2"), url("./assets/fonts/hknova/HKNovaR-Semibold.woff") format("woff"), url("./assets/fonts/hknova/HKNovaR-Semibold.ttf") format("truetype"), url("./assets/fonts/hknova/HKNovaR-Semibold.svg#HKNovaR-Semibold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "HKNovaR";
-  src: url("./assets/fonts/hknova/HKNovaR-Bold.eot");
-  src: url("./assets/fonts/hknova/HKNovaR-Bold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/hknova/HKNovaR-Bold.woff2") format("woff2"), url("./assets/fonts/hknova/HKNovaR-Bold.woff") format("woff"), url("./assets/fonts/hknova/HKNovaR-Bold.ttf") format("truetype"), url("./assets/fonts/hknova/HKNovaR-Bold.svg#HKNovaR-Bold") format("svg");
+  font-family: "SegoeUI";
+  src: url("./assets/fonts/SegoeUI/SegoeUI-Bold.eot");
+  src: url("./assets/fonts/SegoeUI/SegoeUI-Bold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/SegoeUI/SegoeUI-Bold.woff2") format("woff2"), url("./assets/fonts/SegoeUI/SegoeUI-Bold.woff") format("woff"), url("./assets/fonts/SegoeUI/SegoeUI-Bold.ttf") format("truetype"), url("./assets/fonts/SegoeUI/SegoeUI-Bold.svg#SegoeUI-Bold") format("svg");
   font-weight: 700;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "HKNovaR";
-  src: url("./assets/fonts/hknova/HKNovaR-Extrabold.eot");
-  src: url("./assets/fonts/hknova/HKNovaR-Extrabold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/hknova/HKNovaR-Extrabold.woff2") format("woff2"), url("./assets/fonts/hknova/HKNovaR-Extrabold.woff") format("woff"), url("./assets/fonts/hknova/HKNovaR-Extrabold.ttf") format("truetype"), url("./assets/fonts/hknova/HKNovaR-Extrabold.svg#HKNovaR-Extrabold") format("svg");
-  font-weight: 800;
   font-style: normal;
   font-display: swap; }
 /*Padding*/

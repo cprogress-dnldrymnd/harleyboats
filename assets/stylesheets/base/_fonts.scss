@@ -2,14 +2,10 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
-$hknova: (
-    "Light": 300,
+$segoeui: (
     "Regular": 400,
-    "Medium": 500,
-    "Semibold": 600,
     "Bold": 700,
-    "Extrabold": 800,
 );
 
 
-@include font-face("HKNovaR", $font-url + "hknova/", "HKNovaR", normal, $hknova);
+@include font-face("SegoeUI", $font-url + "SegoeUI/", "SegoeUI", normal, $segoeui);

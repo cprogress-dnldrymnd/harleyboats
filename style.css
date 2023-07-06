@@ -9271,7 +9271,7 @@ textarea.form-control-lg {
 /* Base
 /*-----------------------------------------------------------------------------------*/
 .woocommerce.woocommerce ul.products li.product .price {
-  color: var(--primary-color); }
+  color: var(--accent-color); }
 
 .woocommerce ul.products li.product .button,
 .woocommerce #review_form #respond .form-submit input {

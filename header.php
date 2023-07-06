@@ -47,7 +47,7 @@
 			<div class="header-main ">
 				<div class="container">
 					<div class="row">
-						<div class="col">
+						<div class="col-4">
 							<div class="column-holder">
 								<div class="site-logo-holder position-relative">
 									<a href="<?= get_site_url() ?>" class="site-logo">
@@ -56,7 +56,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-auto">
+						<div class="col-8">
 							<div class="column-holder">
 								<div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvasMenu"
 									aria-labelledby="offCanvasMenuLabel">

@@ -112,7 +112,7 @@ add_action('wp_enqueue_scripts', 'enqueue_scripts'); // Register this fxn and al
 require_once('includes/_required_files.php');
 
 function action_woocommerce_before_main_content() {
-	echo '<section class="product-loop" ><div class="container">';
+	echo '<section class="product-loop md-padding" ><div class="container">';
 }
 
 

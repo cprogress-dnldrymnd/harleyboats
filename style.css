@@ -9272,6 +9272,16 @@ textarea.form-control-lg {
 /*-----------------------------------------------------------------------------------*/
 .woocommerce.woocommerce ul.products li.product .price {
   color: var(--accent-color); }
+.woocommerce.woocommerce ul.products li.product .image-box {
+  position: relative;
+  padding: 40%; }
+  .woocommerce.woocommerce ul.products li.product .image-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 .woocommerce ul.products li.product .button,
 .woocommerce #review_form #respond .form-submit input {

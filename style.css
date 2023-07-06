@@ -10256,13 +10256,15 @@ header {
   header .site-logo img {
     max-width: 275px; }
   header #offCanvasMenu .navbar-nav {
-    flex-direction: row;
     justify-content: flex-end; }
     header #offCanvasMenu .navbar-nav li {
       padding-left: 0.5rem;
       padding-right: 0.5rem; }
       header #offCanvasMenu .navbar-nav li a {
         color: var(--white-color); }
+    @media screen and (min-width: 992px) {
+      header #offCanvasMenu .navbar-nav {
+        flex-direction: row; } }
   @media screen and (min-width: 992px) {
     header #offCanvasMenu {
       position: relative;
@@ -10272,6 +10274,9 @@ header {
       background-color: transparent;
       border: none;
       width: auto; } }
+  @media screen and (max-width: 991px) {
+    header #offCanvasMenu {
+      background-color: #444; } }
 
 footer {
   background-color: #444444;

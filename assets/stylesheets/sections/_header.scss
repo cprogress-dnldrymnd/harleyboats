@@ -11,7 +11,6 @@ header {
 
 
 		.navbar-nav {
-			flex-direction: row;
 			justify-content: flex-end;
 
 			li {
@@ -21,6 +20,10 @@ header {
 				a {
 					color: var(--white-color);
 				}
+			}
+
+			@include responsive(md-lg) {
+				flex-direction: row;
 			}
 		}
 
@@ -32,6 +35,10 @@ header {
 			background-color: transparent;
 			border: none;
 			width: auto;
+		}
+
+		@include responsive(xs-sm) {
+			background-color: #444;
 		}
 	}
 }

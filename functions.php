@@ -180,7 +180,7 @@ function woo_enquire_tab_content()
 
 	// The new tab content
 
-	echo '<h2 class="mb-3" >Enquire Now</h2>';
+	echo '<h2 class="mb-3">Enquire Now</h2>';
 	echo do_shortcode( '[contact-form-7 id="53" title="Product Enquire"]' );
 
 }

@@ -155,3 +155,32 @@ add_action('woocommerce_before_shop_loop_item_title', function () {
 add_action('woocommerce_before_shop_loop_item_title', function () {
 	echo '</div>';
 }, 11);
+
+
+/**
+ * Add a custom product data tab
+ */
+add_filter('woocommerce_product_tabs', 'woo_enquire_tab');
+function woo_enquire_tab($tabs)
+{
+
+	// Adds the new tab
+
+	$tabs['test_tab'] = array(
+		'title'    => __('New Product Tab', 'woocommerce'),
+		'priority' => 50,
+		'callback' => 'woo_enquire_tab_content'
+	);
+
+	return $tabs;
+
+}
+function woo_enquire_tab_content()
+{
+
+	// The new tab content
+
+	echo '<h2>New Product Tab</h2>';
+	echo '<p>Here\'s your new product tab.</p>';
+
+}

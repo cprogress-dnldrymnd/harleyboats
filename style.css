@@ -9293,7 +9293,8 @@ textarea.form-control-lg {
   padding: 15px;
   max-width: 180px;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  border: none; }
   .woocommerce ul.products li.product .button:hover, .woocommerce ul.products li.product .button:active, .woocommerce ul.products li.product .button:focus,
   .woocommerce #review_form #respond .form-submit input:hover,
   .woocommerce #review_form #respond .form-submit input:active,

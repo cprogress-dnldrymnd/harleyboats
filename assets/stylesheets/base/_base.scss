@@ -33,7 +33,7 @@
     max-width: 180px;
     width: 100%;
     text-align: center;
-
+    border: none;
     @include on-event {
         background-color: var(--primary-color);
     }
